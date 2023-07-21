@@ -1,0 +1,204 @@
+[
+
+    {
+
+    "id": "abrigo-01",
+    "titulo": "Abrigo 01",
+    "imagen": "./img/Abrigos/abrigo 01.jpg",
+    "categoria": {
+        "nombre": "Abrigos",
+        "id": "abrigos"
+    },
+"precio": 1000
+
+},
+{
+
+        "id": "abrigo-02",
+        "titulo": "Abrigo 02",
+        "imagen": "./img/Abrigos/abrigo 02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+    "precio": 2000
+},
+{
+
+        "id": "abrigo-03",
+        "titulo" :"Abrigo 03",
+        "imagen": "./img/Abrigos/abrigo 03.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+    "precio": 3000
+},
+{
+
+    "id": "abrigo-04",
+    "titulo": "Abrigo 04",
+    "imagen": "./img/Abrigos/abrigo 04.jpg",
+    "categoria": {
+        "nombre": "Abrigos",
+        "id": "abrigos"
+    },
+"precio": 4000
+},
+{
+
+    "id": "abrigo-05",
+    "titulo": "Abrigo 05",
+    "imagen": "./img/Abrigos/abrigo 05.jpg",
+    "categoria": {
+        "nombre": "Abrigos",
+        "id": "abrigos"
+    },
+"precio": 5000
+},
+{
+
+    "id": "abrigo-06",
+    "titulo":"Abrigo 06",
+    "imagen": "./img/Abrigos/abrigo 06.jpg",
+    "categoria": {
+        "nombre": "Abrigos",
+        "id": "abrigos"
+    },
+"precio": 6000
+},
+{
+
+    "id": "blusa-01",
+    "titulo": "Blusa 01",
+    "imagen": "./img/Blusas/blusa 01.jpg",
+    "categoria": {
+        "nombre": "Blusas",
+        "id": "blusas"
+    },
+"precio": 1000
+},
+{
+
+    "id": "blusa-02",
+    "titulo": "Blusa 02",
+    "imagen": "./img/Blusas/blusa 02.jpg",
+    "categoria": {
+        "nombre": "Blusas",
+        "id": "blusas"
+    },
+"precio": 1000
+},
+{
+
+    "id": "blusa -03",
+    "titulo": "Blusa 03",
+    "imagen": "./img/Blusas/blusa 03.jpg",
+    "categoria": {
+        "nombre": "Blusas",
+        "id": "blusas"
+    },
+"precio": 1000
+},
+{
+
+    "id":"blusa-04",
+    "titulo" :"Blusa 04",
+    "imagen": "./img/Blusas/blusa 04.jpg",
+    "categoria": {
+        "nombre": "Blusas",
+        "id": "blusas"
+    },
+"precio": 1000
+},
+{
+
+    "id": "blusa-05",
+    "titulo": "Blusa 05",
+    "imagen": "./img/Blusas/blusa 05.jpg",
+    "categoria": {
+        "nombre": "Blusas",
+        "id": "blusas"
+    },
+"precio": 1000
+},
+{
+
+    "id": "blusa-06",
+    "titulo": "Blusa 06",
+    "imagen": "./img/Blusas/blusa 06.jpg",
+    "categoria": {
+        "nombre": "Blusas",
+        "id": "blusas"
+    },
+"precio": 1000
+},
+{
+
+    "id":"falda-01",
+    "titulo":"Falda 01",
+    "imagen":"./img/Faldas/falda 01.jpg",
+    "categoria":{
+        "nombre":"Faldas",
+        "id":"faldas"
+    },
+"precio": 1000
+},
+{
+
+    "id": "falda-02",
+    "titulo": "Falda 02",
+    "imagen": "./img/Faldas/falda 02.jpg",
+    "categoria": {
+        "nombre": "Faldas",
+        "id": "faldas"
+    },
+"precio": 1000
+},
+{
+
+    "id": "falda-03",
+    "titulo": "falda 03",
+    "imagen": "./img/Faldas/falda 03.jpg",
+    "categoria": {
+        "nombre": "Faldas",
+        "id": "faldas"
+    },
+"precio": 1000
+},
+{
+
+    "id": "faldas-04",
+    "titulo": "faldas 04",
+    "imagen": "./img/Faldas/falda 04.jpg",
+    "categoria": {
+        "nombre": "Faldas",
+        "id": "faldas"
+    },
+"precio": 1000
+},
+{
+
+    "id": "faldas-05",
+    "titulo": "Faldas 05",
+    "imagen": "./img/Faldas/falda 05.jpg",
+    "categoria": {
+        "nombre": "Faldas",
+        "id": "faldas"
+    },
+"precio": 1000
+},
+{
+
+    "id": "falda-06",
+    "titulo": "Falda 06",
+    "imagen": "./img/Faldas/falda 06.jpg",
+    "categoria": {
+        "nombre": "Faldas",
+        "id": "faldas"
+    },
+"precio": 1000
+
+}
+
+]

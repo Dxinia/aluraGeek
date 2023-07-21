@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+      <head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>DxiniaShop</title>
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+         <link rel="stylesheet" href="./css/main.css">
+      </head>
+      <body>
+         <div class="wrapper">
+                 <header class="header-mobile"> 
+                    <h1 class="logo">DxiniaShop</h1>
+                    <button class="open-menu" id="open-menu">
+                        <i class="bi bi-list"></i>
+                    </button>
+                 </header>
+                 <aside> 
+                    <button class="close-menu" id="close-menu">
+                        <i class="bi bi-x"></i>
+                    </button>
+                    <header>
+                        <h1 class="logo">DxiniaShop</h1>
+                    </header>
+                 <nav> 
+                     <ul class="menu">
+                     <li>
+                     <button id="todos" class="boton-menu boton-categoria active"><i class ="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
+                     </li> 
+                     <li>
+                     <button id="abrigos"  class="boton-menu boton-categoria"><i class ="bi bi-hand-index-thumb"></i>Abrigos</button>
+                     </li> 
+                     <li>
+                     <button  id ="faldas" class="boton-menu boton-categoria"><i class ="bi bi-hand-index-thumb"></i>Faldas</button>
+                     </li> 
+                     <li>
+                     <button  id="blusas" class="boton-menu boton-categoria"><i class ="bi bi-hand-index-thumb"></i>Blusas</button>
+                     </li>
+                     <li>
+                     <a class="boton-menu boton-carrito" href="./carrito.html">
+                        <i class="bi bi-cart-fill"></i>Carrito<span id="numerito" class="numerito">0</span></a>
+                     </li>  
+                     </ul>
+                 </nav>
+                    <footer>
+                         <p class="texto-footer">© 2023 DxiniaShop</p>
+                    </footer>
+              </aside>
+              <main>
+                <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+                   <div id="contenedor-productos" class="contenedor-productos">
+                     <!--ESto se va a rellenar con js-->
+                     <div class="producto">
+                        <img src ="./img/abrigos/abrigo 01.jpg" alt="">
+                        <div>
+                        <h3 class = "producto-titulo">Abrigo 01</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                     </div>
+                     </div>
+                    <div class="producto">
+                     <img src ="./img/abrigos/abrigo 02.jpg" alt="">
+                     <div>
+                     <h3 class ="producto-titulo">Abrigo 02</h3>
+                     <p class="producto-precio">$2000</p>
+                     <button class="producto-agregar">Agregar</button>
+                  </div>
+                  </div>
+                  <div class=" producto">
+                     <img src ="./img/abrigos/abrigo 03.jpg" alt="">
+                     <div>
+                     <h3 class = "producto-titulo">Abrigo 03</h3>
+                     <p class="producto-precio">$3000</p>
+                     <button class="producto-agregar">Agregar</button>
+                  </div>
+                  </div>
+                  <div class="producto">
+                     <img src ="./img/abrigos/abrigo 04.jpg" alt="">
+                     <div>
+                     <h3 class = "producto-titulo">Abrigo 04</h3>
+                     <p class="producto-precio">$4000</p>
+                     <button class="producto-agregar">Agregar</button>
+                  </div>
+                  </div>
+                  <div class="producto">
+                     <img src ="./img/abrigos/abrigo 05.jpg" alt="">
+                     <div>
+                     <h3 class = "producto-titulo">Abrigo 05</h3>
+                     <p class="producto-precio">$5000</p>
+                     <button class="producto-agregar">Agregar</button>
+                  </div>
+                  </div>
+                  <div class="producto">
+                     <img src ="./img/abrigos/abrigo 06.jpg" alt="">
+                     <div>
+                     <h3 class = "producto-titulo">Abrigo 06</h3>
+                     <p class="producto-precio">$6000</p>
+                     <button class="producto-agregar">Agregar</button></div>
+                  </div>
+                  <div class="producto">
+                     <img src ="./img/Blusas/blusa 01.jpg" alt="">
+                     <div>
+                     <h3 class = "producto-titulo">Blusa 01</h3>
+                     <p class="producto-precio">$1000</p>
+                     <button class="producto-agregar">Agregar</button></div>
+                  </div>
+                  <div class="producto">
+                     <img src ="./img/Blusas/blusa 02.jpg" alt="">
+                     <div>
+                     <h3 class = "producto-titulo">Blusa 02</h3>
+                     <p class="producto-precio">$1000</p>
+                     <button class="producto-agregar">Agregar</button></div>
+                  </div>
+                  <div class="producto">
+                     <img src ="./img/Blusas/blusa 03.jpg" alt="">
+                     <div>
+                     <h3 class = "producto-titulo">Blusa 03</h3>
+                     <p class="producto-precio">$1000</p>
+                     <button class="producto-agregar">Agregar</button></div>
+                  </div>
+                 <div class="producto">
+                     <img src ="./img/Blusas/blusa 04.jpg" alt="">
+                     <div>
+                     <h3 class = "producto-titulo">Blusa 04</h3>
+                     <p class="producto-precio">$1000</p>
+                     <button class="producto-agregar">Agregar</button></div>
+                  </div>
+                  <div class="producto">
+                     <img src ="./img/Blusas/blusa 05.jpg" alt="">
+                     <div>
+                     <h3 class = "producto-titulo">Blusa 05</h3>
+                     <p class="producto-precio">$1000</p>
+                     <button class="producto-agregar">Agregar</button></div>
+                  </div>
+                  <div class="producto">
+                     <img src ="./img/Blusas/blusa 06.jpg" alt="">
+                     <div>
+                     <h3 class = "producto-titulo">BLusa 06</h3>
+                     <p class="producto-precio">$1000</p>
+                     <button class="producto-agregar">Agregar</button></div>
+                     </div>
+                     <div class="producto">
+                        <img src ="./img/Faldas/falda 01.jpg" alt="">
+                        <div>
+                        <h3 class = "producto-titulo">Falda 01</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button></div>
+                        </div>
+                        <div class="producto">
+                           <img src ="./img/Faldas/falda 02.jpg" alt="">
+                           <div>
+                           <h3 class = "producto-titulo">Falda 02</h3>
+                           <p class="producto-precio">$1000</p>
+                           <button class="producto-agregar">Agregar</button></div>
+                           </div>
+                           <div class="producto">
+                              <img src ="./img/Faldas/falda 03.jpg" alt="">
+                              <div>
+                              <h3 class = "producto-titulo">Falda 03</h3>
+                              <p class="producto-precio">$1000</p>
+                              <button class="producto-agregar">Agregar</button></div>
+                              </div>
+                              <div class="producto">
+                                 <img src ="./img/Faldas/falda 04.jpg" alt="">
+                                 <div>
+                                 <h3 class = "producto-titulo">Falda 04</h3>
+                                 <p class="producto-precio">$1000</p>
+                                 <button class="producto-agregar">Agregar</button></div>
+                                 </div>
+                                 <div class="producto">
+                                    <img src ="./img/Faldas/falda 05.jpg" alt="">
+                                    <div>
+                                    <h3 class = "producto-titulo">Falda 05</h3>
+                                    <p class="producto-precio">$1000</p>
+                                    <button class="producto-agregar">Agregar</button></div>
+                                    </div>
+                                    <div class="producto">
+                                       <img src ="./img/Faldas/falda 06.jpg" alt="">
+                                       <div>
+                                       <h3 class = "producto-titulo">Falda 06</h3>
+                                       <p class="producto-precio">$1000</p>
+                                       <button class="producto-agregar">Agregar</button></div>
+                                       </div>
+                  </div>
+               </div> 
+                </main>
+            </div>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+          <script src="./js/main.js"></script>
+          <script src="./js/menu.js"></script>
+        </body>
+</html>
